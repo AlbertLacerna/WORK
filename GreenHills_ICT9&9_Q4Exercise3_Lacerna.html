@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>JavaScript Events and Functions</title>
+	<tr><th></th><center><p><h1 id="id2"><i>CM INTO INCHES:</i></h1></p></center>
+</head>
+<center><body>
+	<input type="text" id="num1" placeholder= "Enter the first number"><br>
+	<input value="0.0328084" id="num2"><br>
+	<input type="submit" input="compute" onclick="myFirstFunction()"><br>
+	<p id="id1" ></p>
+<script>
+	function myFirstFunction() {
+		var x =document.getElementById('num1').value;
+		var y = document.getElementById('num2').value;
+		var answer = y*x;
+		document.getElementById('id1').innerHTML = "The answer is" + answer;
+
+	}
+
+	
+</script>
+</body>
+</html>
+</center>
